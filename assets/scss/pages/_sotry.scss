@@ -1,0 +1,88 @@
+/* Page */
+.header {
+    background-image: url(../../assets/images/heder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    /* (400-96)/2=152 */
+    /*四個值，個別指定*/
+    /*三個值，左右採用同一個值，上下則分開指定*/
+    /*二個值，【上下】採用同一值，【左右】採用同一值*/
+    /*一個值，【上下左右】都使用相同的值*/
+    padding: 152px 0;
+    text-align: center;
+}
+
+@media (max-width:767px) {
+    .header {
+        padding-top: 87px;
+        padding-bottom: 87px;
+        background-image: url(../../assets/images/hero-sm.png);
+    }
+}
+
+.quote {
+    /* 圓角 */
+    border-radius: 12px;
+    text-align: center;
+}
+
+@media (max-width:767px) {
+    .quote {
+        /* 圓角 */
+        border-radius: 12px;
+        text-align: left;
+    }
+}
+
+.intro {
+    max-width: 1076px;
+    /* margin-left: -110px;
+    margin-right: -110px; */
+    text-align: center;
+}
+
+.history-list {
+    list-style-type: disc;
+    padding-left: 24px;
+}
+
+.history-desc {
+    border-left: 1px solid $text-neutral-900;
+    padding-left: 8px;
+}
+
+.concept-item {
+    padding-left: 12px;
+    border-left: 3px solid $text-neutral-300;
+}
+
+.storya {
+    color: $text-Primary-400;
+    text-underline-offset: 4px;
+    display: block;
+}
+
+.storya:hover {
+    color: $text-neutral-white;
+    background-color: $text-Primary-400;
+}
+
+@media screen and (max-width:992px) {
+    .intro {
+        /* 要將原本推的去掉才不會有X軸 */
+        margin-left: 0px;
+        margin-right: 0px;
+
+        /* border: 1px solid blue;  */
+    }
+}
+
+/* 768尺寸以下時 */
+@media screen and (max-width:768px) {
+    .container {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}

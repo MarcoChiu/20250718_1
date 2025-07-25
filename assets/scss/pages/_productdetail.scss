@@ -1,0 +1,78 @@
+.product-row {
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.product-col {
+    width: calc(100% /12 * 6);
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+@media (max-width:767px) {
+
+    .product-row .product-col {
+        width: 100%;
+    }
+
+    /* 參考https://codepen.io/wenetcodepen/pen/rNJQVbY */
+    .product-row .product-col:nth-child(n+2) {
+        display: none;
+    }
+}
+
+.del-price {
+    font-size: 14px;
+    font-weight: 400;
+    color: $text-neutral-500;
+    padding-left: 8px;
+}
+
+.product-color {
+    max-width: 64px;
+    text-align: center;
+    color: $text-neutral-600;
+
+}
+
+.btn-product-size {
+    border: 1px solid $text-neutral-300;
+    max-width: 160px;
+    width: 100%;
+}
+
+/* 一個物件有兩個class class="btn-product-size active" */
+.btn-product-size.active,
+.btn-product-size:hover {
+    border: 1px solid $text-neutral-900;
+    max-width: 160px;
+    width: 100%;
+}
+
+/* 的btn的btn */
+/* product-action 下層的btn */
+.product-action .btn {
+    width: 50%;
+}
+
+@media (max-width:767px) {
+    .product-action .btn-md-90 {
+        width: 90%;
+    }
+
+    .product-action .btn-md-10 {
+        width: 10%;
+    }     
+}
+
+.product-info {
+    border-bottom: 1px solid $text-neutral-300;
+}
+
+.product-info-title {
+    font-weight: 500;
+}
+
+.product-info-item {
+    color: $text-neutral-600;
+}

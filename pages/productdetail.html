@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>產品詳情</title>
+</head>
+
+<body>
+    <%- include('./layout/header'); -%>
+
+    <!-- 主要內容 -->
+    <main class="container">
+      <section>
+        <div class="row ptb-64 ptd-md-0">
+          <!-- 左邊圖片 -->
+          <div class="col-7 col-md-4 mb-md-24">
+            <div class="product-row d-flex flex-wrap">
+
+              <div class="product-col col-6 mb-8 ">
+                <img src="../assets/images/image-8.png" alt="產品圖片">
+              </div>
+
+              <div class="product-col col-6  mb-8">
+                <img src="../assets/images/image-1.png" alt="產品圖片">
+              </div>
+
+              <div class="product-col col-6  mb-8">
+                <img src="../assets/images/image-2.png" alt="產品圖片">
+              </div>
+
+              <div class="product-col col-6  mb-8">
+                <img src="../assets/images/image-3.png" alt="產品圖片">
+              </div>
+
+              <div class="product-col col-6  mb-8">
+                <img src="../assets/images/image-4.png" alt="產品圖片">
+              </div>
+
+              <div class="product-col col-6  mb-8">
+                <img src="../assets/images/image-5.png" alt="產品圖片">
+              </div>
+
+              <div class="product-col col-6  mb-8">
+                <img src="../assets/images/image-6.png" alt="產品圖片">
+              </div>
+              <div class="product-col col-6  mb-8">
+                <img src="../assets/images/image-7.png" alt="產品圖片">
+              </div>
+            </div>
+          </div>
+
+          <!-- 右邊內容 -->
+          <div class="col-5 col-md-4">
+
+            <!-- 導覽列 -->
+            <div class="mb-12">
+              <ol class="d-flex">
+                <li class="breadcrumb-item">
+                  <a href="#" class="breadcrumb-link">首頁</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a href="#" class="breadcrumb-link">女鞋</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a href="#" class="breadcrumb-link">滑板鞋</a>
+                </li>
+                <li class="breadcrumb-item">
+                  Platform 404
+                </li>
+              </ol>
+              <!-- <div><a href="index.html" class="breadcurmblink">首頁</a></div>
+                            <div class="breadcurmslash">/</div>
+                            <div><a href="products.html" class="breadcurmblink">女鞋</a></div>
+                            <div class="breadcurmslash">/</div>
+                            <div><a href="products.html" class="breadcurmblink">滑板鞋</a></div>
+                            <div class="breadcurmslash">/</div>
+                            <div>Platform 404</div> -->
+            </div>
+
+            <!-- 說明 -->
+            <div class="mb-32">
+              <h1 class="h2 h4-md mb-16 mb-md-12">
+                Platform 404
+              </h1>
+              <p class="h5 h6-md mb-16 mb-md-12 text-Primary-400">
+                NT$2,600<del class="del-price">NT$3,200</del>
+              </p>
+              <p class="mb-12">
+                Platform 404 以柔和奶白為底，搭配深藍色皮革點綴，走在街上自帶回頭率。鞋型採用復古運動風輪廓，結合輕量厚底與柔軟泡棉鞋舌，兼顧美感與舒適。
+              </p>
+              <p>
+                鞋身選用柔軟皮革材質，打造出清新卻不失個性的氛圍，並以鞋面透氣孔設計提升穿著體驗，兼顧質感與舒適度，適合日常長時間著用。無論是街頭穿搭、日常通勤或週末出遊都能輕鬆駕馭。
+              </p>
+            </div>
+
+            <!-- Color Select-->
+            <div class="mb-32">
+              <h3 class="mb-8">顏色</h3>
+              <div class="d-flex">
+                <div class="product-color mr-8">
+                  <img src="../assets/images/product-10.png" alt="藍色" class="mb-4">
+                  <p>藍色</p>
+                </div>
+                <div class="product-color mr-8">
+                  <img src="../assets/images/product-1.png" alt="卡其色" class="mb-4">
+                  <p>卡其色</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Size Select-->
+            <div class="mb-48 mb-md-24">
+              <h3 class="mb-8">尺寸</h3>
+              <div class="d-flex flex-wrap gap-8 mb-8">
+                <button class="btn btn-product-size active">35(22.5cm)</button>
+                <button class="btn btn-product-size">36(23.0cm)</button>
+                <button class="btn btn-product-size">37(23.5cm)</button>
+                <button class="btn btn-product-size">38(24.0cm)</button>
+                <button class="btn btn-product-size">39(24.5cm)</button>
+                <button class="btn btn-product-size">40(25.0cm)</button>
+                <button class="btn btn-product-size">41(26.0cm)</button>
+                <!-- 因為有disabled所以目前只能用button做 -->
+                <button class="btn btn-product-size" disabled>42(26.5cm)</button>
+                <button class="btn btn-product-size" disabled>43(27.0cm)</button>
+              </div>
+              <p class="text-14 text-danger-300">僅剩3雙</p>
+            </div>
+
+            <!-- 收藏 預約 -->
+            <div class="d-flex mb-32 gap-8 product-action d-md-reverse">
+              <button type="button" class="btn btn-light btn-md-10"><i class="bi bi-heart pr-8 pr-md-0"></i><span
+                  class="d-md-none">加入收藏</span></button>
+              <button type="button" class="btn btn-dark btn-md-90"><i class="bi bi-handbag pr-8"></i>門市預約試穿</button>
+              <!-- <button type="button" class="btn  d-none d-md-block"><i class="bi bi-heart mr-8"></i></button> -->
+            </div>
+
+            <!-- 產品說明 -->
+            <div class="d-flex column">
+              <div class="ptb-12 product-info">
+                <h4 class="mb-4 product-info-title">產品材質</h4>
+                <p class="product-info-item">內裡：透氣網布材質，提升舒適與排汗性<br>
+                  內裡：透氣網布材質，提升舒適與排汗性<br>
+                  鞋底：EVA 輕量發泡橡膠，具備良好緩震與止滑效果<br>
+                  鞋帶：聚酯纖維，耐拉扯不易鬆脫
+                </p>
+              </div>
+              <div class="ptb-12 product-info">
+                <h4 class="mb-4 product-info-title">購買須知</h4>
+                <p class="product-info-item">商品顏色因螢幕顯示可能略有差異，請以實品為準。<br>
+                  建議首次穿著前試穿確認尺寸，避免影響退換貨權益。<br>
+                  本商品為限量發售，庫存有限，如需更換尺寸請儘早聯繫客服協助處理。
+                </p>
+              </div>
+              <div class="ptb-12 product-info">
+                <h4 class="mb-4 product-info-title">保養方式</h4>
+                <p class="product-info-item">建議以乾布或微濕軟布擦拭表面汙漬，避免機洗或長時間浸水。<br>
+                  收納時請放置於乾燥通風處，避免日曬及高溫導致變形或龜裂。<br>
+                  若需深層清潔，建議使用中性清潔劑並搭配柔刷輕刷，勿使用漂白水或強酸強鹼清潔劑。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="ptb-48 mb-40">
+          <h2 class="h4 h5-md mb-16">你可能也喜歡...</h2>
+
+          <!-- https://ithelp.ithome.com.tw/articles/10227461 -->
+          <div class="row flex-infinity-scrollx">
+            <div class="col-3 col-md-4 flex-md-none">
+              <a href="productdetail.html">
+                <img src="../assets/images/product-2.png" alt="VM001" class="mb-12">
+                <h4 class="h6 mb-4">VM001</h4>
+                <p>NT$2,600</p>
+              </a>
+            </div>
+            <div class="col-3 col-md-4 flex-md-none">
+              <a href="productdetail.html">
+                <img src="../assets/images/product-3.png" alt="Melty Kiss" class="mb-12">
+                <h4 class="h6 mb-4">Melty Kiss</h4>
+                <p>NT$4,000</p>
+              </a>
+            </div>
+            <div class="col-3 col-md-4 flex-md-none">
+              <a href="productdetail.html">
+                <img src="../assets/images/product-4.png" alt="BOOMBLOK-White" class="mb-12">
+                <h4 class="h6 mb-4">BOOMBLOK-White</h4>
+                <p>NT$3,200</p>
+              </a>
+            </div>
+            <div class="col-3 col-md-4 flex-md-none">
+              <a href="productdetail.html">
+                <img src="../assets/images/product-7.png" alt="Sugar Snap" class="mb-12">
+                <h4 class="h6 mb-4">Sugar Snap</h4>
+                <p>NT$3,200</p>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- 主要內容 -->
+  
+    <%- include('./layout/footer'); -%>
+    <script type="module" src="../main.js"></script>
+</body>
+
+</html>

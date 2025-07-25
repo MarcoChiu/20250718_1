@@ -1,0 +1,29 @@
+/* 基本樣式全站通用 */
+
+/* 盒模型多少寬度就算多少 */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: $text-neutral-900;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+a {
+    color: $text-neutral-900;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+}

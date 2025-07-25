@@ -1,0 +1,27 @@
+/* 助教demo / 的部分 */
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "/";
+    padding: 0 12px;
+    color: $text-neutral-300;
+    font-weight: 700;
+}
+
+.breadcrumb-item {
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;     
+}
+
+.breadcrumb-link {
+    color: $text-neutral-600
+}
+
+@media (max-width:767px) {
+    .breadcrumb-item+.breadcrumb-item::before {
+        padding: 0 8px;
+    }
+
+    .breadcrumb-item {
+        font-size: 14px;
+    }
+}

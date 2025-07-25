@@ -1,0 +1,15 @@
+.category .active{
+    color:$text-Primary-400;
+}
+
+.page-item .btn{
+     /*二個值，【上下】採用同一值，【左右】採用同一值*/
+    padding: 8px 15px;
+    border-radius: 0;
+    font-weight: 400;
+}
+
+.page-item .active{
+    background-color: $bg-Primary-300;
+    font-weight: 500;
+}

@@ -1,0 +1,26 @@
+.btn {
+    border-radius: 4px;
+    /*二個值，【上下】採用同一值，【左右】採用同一值*/
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+@media (max-width:576px) {
+    .btn {
+        padding: 8px 16px;
+    }
+}
+
+.btn-dark {
+    background-color: $text-neutral-900;
+    color: $text-neutral-white;
+}
+
+.btn-light {
+    border: 1px solid $text-neutral-900;
+} 
