@@ -148,46 +148,44 @@
 
 /* 上下助教是py */
 
-.ptb-64 {
+.py-64 {
     padding-top: 64px;
     padding-bottom: 64px;
 }
 
-.ptb-48 {
+.py-48 {
     padding-top: 48px;
     padding-bottom: 48px;
 }
 
-.ptb-32 {
+.py-32 {
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
-.ptb-24 {
+.py-24 {
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
-.ptb-16 {
+.py-16 {
     padding-top: 16px;
     padding-bottom: 16px;
 }
 
-.ptb-12 {
+.py-12 {
     padding-top: 12px;
     padding-bottom: 12px;
 }
 
-.ptb-8 {
+.py-8 {
     padding-top: 8px;
     padding-bottom: 8px;
 }
 
-.pr-8 {
+.pe-8 {
     padding-right: 8px;
 }
-
-
 
 /* 下方 */
 .pb-48 {
@@ -200,14 +198,14 @@
 
 @media (max-width:767px) {
 
-    .pr-md-0 {
+    .pe-md-0 {
 
         padding-right: 0;
 
     }
 
     /* 助教是px */
-    .plr-md-12 {
+    .px-md-12 {
         padding-left: 12px;
         padding-right: 12px;
     }
@@ -219,12 +217,12 @@
         padding-bottom: 0;
     }
 
-    .ptb-md-12 {
+    .py-md-12 {
         padding-top: 12px;
         padding-bottom: 12px;
     }
 
-    .ptb-md-32 {
+    .py-md-32 {
         padding-top: 32px;
         padding-bottom: 32px;
     }
@@ -233,7 +231,7 @@
         padding: 24px;
     }
 
-    .ptb-md-24 {
+    .py-md-24 {
         padding-top: 24px ;
         padding-bottom: 24px;
     }
@@ -245,23 +243,21 @@
 }
 
 @media (max-width:576px) {
-    .plr-sm-12 {
+    .px-sm-12 {
         padding-left: 12px;
         padding-right: 12px;
     }
 
-    .ptb-sm-12 {
+    .py-sm-12 {
         padding-top: 12px;
         padding-bottom: 12px;
     }
 
-    .ptb-sm-32 {
+    .py-sm-32 {
         padding-top: 32px;
         padding-bottom: 32px;
     }
 }
-
-
 
 .mt-120 {
     margin-top: 120px;
@@ -273,12 +269,7 @@
     }
 
 
-}
-
-// .mx-80{
-//     margin-left: 80px;
-//     margin-right: 80px;
-// }
+} 
 
 .mb-64 {
     margin-bottom: 64px;
@@ -321,23 +312,23 @@
 }
 
 /* 右邊助教是pe */
-.mr-48 {
+.me-48 {
     margin-right: 48px;
 }
 
-.mr-40 {
+.me-40 {
     margin-right: 40px;
 }
 
-.mr-24 {
+.me-24 {
     margin-right: 24px;
 }
 
-.mr-12 {
+.me-12 {
     margin-right: 12px;
 }
 
-.mr-8 {
+.me-8 {
     margin-right: 8px;
 }
 
@@ -369,11 +360,11 @@
 }
 
 @media (max-width:576px) {
-    .mr-sm-0 {
+    .me-sm-0 {
         margin-right: 0;
     }
 
-    .mr-sm-16 {
+    .me-sm-16 {
         margin-right: 16px;
     }
 
@@ -395,7 +386,7 @@
     display: none;
 }
 
-.d-reverse {
+.row-reverse {
     flex-direction: row-reverse;
 }
 
@@ -408,7 +399,7 @@
         display: none;
     }
 
-    .d-md-reverse {
+    .md-row-reverse {
         flex-direction: row-reverse;
     }
 
