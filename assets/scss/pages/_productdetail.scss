@@ -9,7 +9,7 @@
     padding-right: 4px;
 }
 
-@media (max-width:767px) {
+@media (max-width:992px) {
     .product-row .product-col {
         width: 100%;
     }
@@ -54,14 +54,14 @@
     width: 50%;
 }
 
-@media (max-width:767px) {
-    .product-action .btn-md-90 {
+@media (max-width:992px) {
+    .product-action .btn-lg-90 {
         width: 90%;
     }
 
-    .product-action .btn-md-10 {
+    .product-action .btn-lg-10 {
         width: 10%;
-    }     
+    }
 }
 
 .product-info {

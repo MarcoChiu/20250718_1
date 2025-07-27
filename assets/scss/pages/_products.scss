@@ -1,3 +1,8 @@
+// .category{
+//     padding-left: -12px;
+//     padding-right: -12px;
+// }
+
 .category .active{
     color:$text-Primary-400;
 }
@@ -9,7 +14,12 @@
     font-weight: 400;
 }
 
-.page-item .active{
-    background-color: $bg-Primary-300;
+.page-item .btn:hover:enabled{
+    color: $bg-Primary-500;   
+}
+
+
+.page-item .active:enabled{
+    background-color: $bg-Primary-300;    
     font-weight: 500;
 }

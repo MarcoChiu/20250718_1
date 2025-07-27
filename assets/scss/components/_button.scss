@@ -1,4 +1,5 @@
 .btn {
+    font-family: 'Noto Sans TC', sans-serif;
     border-radius: 4px;
     /*二個值，【上下】採用同一值，【左右】採用同一值*/
     padding: 12px 24px;
@@ -21,6 +22,19 @@
     color: $text-neutral-white;
 }
 
-.btn-light {
+.btn-dark:hover {
+    background-color: $text-neutral-700;     
+}
+
+.btn-heart {
     border: 1px solid $text-neutral-900;
 } 
+ 
+.btn-heart:hover {
+    color:$text-Danger-300;
+    border: 1px solid  $text-Danger-300;
+} 
+
+.btndisabled{
+    cursor: not-allowed;    
+}

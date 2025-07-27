@@ -196,6 +196,8 @@
     padding-bottom: 32px;
 }
 
+
+
 @media (max-width:767px) {
 
     .pe-md-0 {
@@ -232,7 +234,7 @@
     }
 
     .py-md-24 {
-        padding-top: 24px ;
+        padding-top: 24px;
         padding-bottom: 24px;
     }
 
@@ -267,9 +269,7 @@
     .mt-md-0 {
         margin-top: 0;
     }
-
-
-} 
+}
 
 .mb-64 {
     margin-bottom: 64px;
@@ -377,6 +377,8 @@
     }
 }
 
+
+
 /* flex 格線模式 */
 .d-flex {
     display: flex;
@@ -388,6 +390,16 @@
 
 .row-reverse {
     flex-direction: row-reverse;
+}
+
+// 傑利助教建議992就做字才不會換行
+@media (max-width:992px) {
+    .lg-row-reverse {
+        flex-direction: row-reverse;
+    }    
+    .d-lg-none {
+        display: none;
+    }
 }
 
 @media (max-width:767px) {
@@ -480,6 +492,10 @@
     padding-right: $col-padding;
 }
 
+.col-2-p0 {
+    width: calc(100% / 12 * 2);
+}
+
 .col-3 {
 
     width: calc(100% / 12 * 3);
@@ -550,6 +566,15 @@
     padding-right: $col-padding;
 }
 
+@media (max-width:992px) {
+
+    .col-lg-4 {
+        width: 100%;
+        // padding-left: $col-md-padding;
+        // padding-right: $col-md-padding;
+    }
+}
+
 @media (max-width:767px) {
     .row {
         margin-left: -6px;
@@ -558,26 +583,26 @@
 
     .col-md-1 {
         width: calc(100% / 4);
-        padding-left: $col-md-padding;
-        padding-right: $col-md-padding;
+        // padding-left: $col-md-padding;
+        // padding-right: $col-md-padding;
     }
 
     .col-md-2 {
         width: calc(100% / 4 * 2);
-        padding-left: $col-md-padding;
-        padding-right: $col-md-padding;
+        // padding-left: $col-md-padding;
+        // padding-right: $col-md-padding;
     }
 
     .col-md-3 {
         width: calc(100% / 4 * 3);
-        padding-left: $col-md-padding;
-        padding-right: $col-md-padding;
+        // padding-left: $col-md-padding;
+        // padding-right: $col-md-padding;
     }
 
     .col-md-4 {
         width: 100%;
-        padding-left: $col-md-padding;
-        padding-right: $col-md-padding;
+        // padding-left: $col-md-padding;
+        // padding-right: $col-md-padding;
     }
 
     .col-md-4-p0 {

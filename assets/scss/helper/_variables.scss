@@ -3,25 +3,31 @@
  $text-neutral-300: #DEE2E6;
  $text-neutral-500: #ADB5BD;
  $text-neutral-600: #6C757D;
+ $text-neutral-700: #495057;
+ $text-neutral-800: #343a40;
  $text-neutral-900: #212529;
- $text-Danger-300: #D74F4F;
 
- 
+ $text-Danger-100: #Fcf1f1;
+ $text-Danger-200: #eba7a7;
+ $text-Danger-300: #D74F4F;
 
 
  $bg-Primary-100: #F5FEE7;
  $bg-Primary-200: #E8FEC5;
  $bg-Primary-300: #C0FA73;
+ $bg-Primary-400: #57a203;
+ $bg-Primary-500: #477a11;
+
  $bg-neutral-100: #F8F9FA;
 
  $row-margin: -12px;
  $col-padding: 12px;
- $col-md-padding: 6px;
- 
-//  $story-head-img: url(../../images/heder.png);
+ $col-md-padding: 8px;
 
-//  @media (max-width: 767px) {
-//      :root {
-//          $story-head-img: url(../../images/hero-sm.png);
-//      }
-//  }
+ //  $story-head-img: url(../../images/heder.png);
+
+ //  @media (max-width: 767px) {
+ //      :root {
+ //          $story-head-img: url(../../images/hero-sm.png);
+ //      }
+ //  }
