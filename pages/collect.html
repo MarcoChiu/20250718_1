@@ -9,14 +9,120 @@
 </head>
 
 <body>
-    <%- include('./layout/nav'); -%>
+  <%- include('./layout/nav'); -%>
 
     <!-- 主要內容 -->
-   
+    <main class="container ptb-64">
+      <section>
+        <div class="column align-items-center">
+          <!-- 收藏 -->
+          <div class="col-6 col-md-4 d-flex justify-content-cneter mb-32">
+            <h1 class="h3"><i class="bi bi-check-circle-fill"></i>我的收藏</h1>
+          </div>
+
+          <!-- 營業時間 -->
+          <div class="col-6 col-md-4 d-flex align-items-center mb-32 text-Primary-400 bg-Primary-100">
+            <i class="bi bi-truck"></i>
+            <span>
+              門市營業時間：週一至週五 10:00 - 22:00
+            </span>
+          </div>
+
+          <!-- 最愛項目第一 -->
+          <div class="col-6 col-md-4 mb-32">
+            <div class="d-flex pb-32  section-line">
+              <!-- 左圖片 -->
+              <div class="col-3">
+                <img src="../assets/images/image-8.png" alt="PLATFORM 404">
+              </div>
+              <!-- 右文字 -->
+              <div class="col-9">
+                <div class="column">
+                  <h2 class="h5 mb-8">PLATFORM 404</h2>
+                  <div class="mb-8">
+                    <span class="text-neutral-600 mr-8">尺寸</span>
+                    <span class="text-neutral-900">38</span>
+                  </div>
+                  <div class="mb-8">
+                    <span class="text-neutral-600 mr-8">顏色</span>
+                    <span class="text-neutral-900">Navy</span>
+                  </div>
+                  <h3 class="h6 d-flex d-reverse d-md-row">
+                    NT$2600
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 最愛項目第二 -->
+          <div class="col-6 col-md-4 mb-32">
+            <div class="d-flex pb-32  section-line">
+              <!-- 左圖片 -->
+              <div class="col-3">
+                <img src="../assets/images/product-9.png" alt="BOOMLOK">
+              </div>
+              <!-- 右文字 -->
+              <div class="col-9">
+                <div class="column">
+                  <h2 class="h5 mb-8">BOOMLOK</h2>
+                  <div class="mb-8">
+                    <span class="text-neutral-600 mr-8">尺寸</span>
+                    <span class="text-neutral-900">38</span>
+                  </div>
+                  <div class="mb-8">
+                    <span class="text-neutral-600 mr-8">顏色</span>
+                    <span class="text-neutral-900">White</span>
+                  </div>
+                  <h3 class="h6 d-flex d-reverse d-md-row">
+                    NT$3200
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 最愛項目第三 -->
+          <div class="col-6 col-md-4 mb-32">
+            <div class="d-flex pb-32  section-line">
+              <!-- 左圖片 -->
+              <div class="col-3">
+                <img src="../assets/images/product-3.png" alt="MTLTY KISS">
+              </div>
+              <!-- 右文字 -->
+              <div class="col-9">
+                <div class="column">
+                  <h2 class="h5 mb-8">MTLTY KISS</h2>
+                  <div class="mb-8">
+                    <span class="text-neutral-600 mr-8">尺寸</span>
+                    <span class="text-neutral-900">38</span>
+                  </div>
+                  <div class="mb-8">
+                    <span class="text-neutral-600 mr-8">顏色</span>
+                    <span class="text-neutral-900">Violet</span>
+                  </div>
+                  <h3 class="h6 d-flex d-reverse d-md-row">
+                    NT$4000
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-4 col-md-2 d-flex justify-content-cneter">
+            <a href="index.html" class="btn btn-dark">
+              立即預約門市試穿
+            </a>
+          </div>
+
+      </section>
+    </main>
     <!-- 主要內容 -->
-    
+
     <%- include('./layout/footer'); -%>
-    <script type="module" src="../main.js"></script>
+      <script type="module" src="../main.js"></script>
 </body>
 
 </html>
