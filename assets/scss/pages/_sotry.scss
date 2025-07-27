@@ -1,5 +1,5 @@
 /* Page */
-.header {
+.storyheader {
     background-image: url(../../assets/images/heder.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,10 +12,10 @@
     /*一個值，【上下左右】都使用相同的值*/
     padding: 152px 0;
     text-align: center;
-}
+} 
 
 @media (max-width:767px) {
-    .header {
+    .storyheader {
         padding-top: 87px;
         padding-bottom: 87px;
         background-image: url(../../assets/images/hero-sm.png);

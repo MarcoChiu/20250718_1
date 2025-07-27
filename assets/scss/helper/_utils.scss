@@ -415,13 +415,16 @@
 
 /* 順序的關係這邊要拿到row底下 nowrap才會生效 */
 @media (max-width:767px) {
-    .flex-md-none {
-        flex: none;
-    }
-    .flex-infinity-scrollx {        
+    .flex-md-scrollx {
         flex-wrap: nowrap;
         overflow-x: auto;
     }
+
+    /*  https://www.zhangxinxu.com/wordpress/2020/10/css-flex-0-1-none/  */
+    .flex-md-none {
+        flex: none;
+    }
+
 }
 
 .column {

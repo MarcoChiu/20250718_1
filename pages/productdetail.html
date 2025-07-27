@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <%- include('./layout/header'); -%>
+  <%- include('./layout/nav'); -%>
 
     <!-- 主要內容 -->
     <main class="container">
@@ -170,7 +170,7 @@
           <h2 class="h4 h5-md mb-16">你可能也喜歡...</h2>
 
           <!-- https://ithelp.ithome.com.tw/articles/10227461 -->
-          <div class="row flex-infinity-scrollx">
+          <div class="row flex-md-scrollx">
             <div class="col-3 col-md-4 flex-md-none">
               <a href="productdetail.html">
                 <img src="../assets/images/product-2.png" alt="VM001" class="mb-12">
@@ -206,8 +206,9 @@
     </main>
     <!-- 主要內容 -->
 
+    <%- include('./layout/goregister'); -%>
     <%- include('./layout/footer'); -%>
-      <script type="module" src="../main.js"></script>
+    <script type="module" src="../main.js"></script>
 </body>
 
 </html>
