@@ -1,0 +1,38 @@
+ .login {
+     background-image: url(../assets/images/login-bg.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+@media (max-width: 767px) {
+     .login {
+        background: none;
+        padding-left: 12px;
+        padding-right: 12px;
+     }
+ }
+ 
+
+ .lrswitch {
+     width: 50%;
+     text-align: center;
+     padding-top: 12px;
+     padding-bottom: 12px;
+     border-bottom: 2px solid $text-neutral-300;
+ }
+
+ 
+
+ /* 一個物件有兩個class class="lrswitch active" */
+ .lrswitch.active {
+     color: $text-neutral-900;
+     border-bottom: 2px solid $text-neutral-900;
+ }
+
+ .btn-login {
+     width: 100%;
+     text-align: left;
+     border: 1px solid $text-neutral-300;
+     color: $text-neutral-900;
+     background-color: white;
+ }

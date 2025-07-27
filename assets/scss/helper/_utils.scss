@@ -27,7 +27,6 @@
     color: $text-Danger-300;
 }
 
-
 .text-Primary-400 {
     color: $text-Primary-400;
 }
@@ -51,7 +50,6 @@
 .text-sm {
     font-size: 14px;
 }
-
 
 
 /* 標題 */
@@ -252,6 +250,22 @@
         padding-bottom: 32px;
     }
 }
+
+
+.mt-120 {
+    margin-top: 120px;
+}
+
+@media (max-width:767px) {
+    .mt-md-0 {
+        margin-top: 0;
+    }
+}
+
+// .mx-80{
+//     margin-left: 80px;
+//     margin-right: 80px;
+// }
 
 .mb-64 {
     margin-bottom: 64px;
@@ -545,6 +559,15 @@
         padding-left: $col-md-padding;
         padding-right: $col-md-padding;
     }
+
+    .col-md-4-p0 {
+        //register.html login-bg.png圖片關係
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    
 }
 
 @media (max-width:576px) {}

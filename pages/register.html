@@ -9,14 +9,94 @@
 </head>
 
 <body>
-    <%- include('./layout/nav'); -%>
+  <%- include('./layout/nav'); -%>
 
     <!-- 主要內容 -->
-   
+    <main class="container">
+      <section>
+        <div class="row ptb-64 ptd-md-0">
+          <!-- 左邊圖片 -->
+          <div class="col-5 col-md-4 col-md-4-p0 mb-md-32">
+            
+              <picture>
+                <!-- 當螢幕寬度少於767px時，替換圖片 -->
+                <source srcset="../assets/images/login-sm.png" media="(max-width: 767px)">
+                <!-- 預設圖片，通常是桌面版本 -->
+                <img src="../assets/images/login.png" alt="Login">
+              </picture>
+             
+          </div>
+          <!-- 右邊內容 -->
+          <div class="col-7 col-md-4 col-md-4-p12 login">
+            <div class="column">
+
+              <div class="h3 h4-md mt-120 mt-md-0 mb-32 mb-md-24 text-center">歡迎</div>
+              <div class="d-flex mb-32 mb-md-24">
+                <div class="lrswitch active h6 text-neutral-600">登入</div>
+                <div class="lrswitch h6 text-neutral-600 ">註冊</div>
+              </div>
+
+              <!-- 登入按鈕 -->
+              <div class="logindiv mb-md-32">
+                <button class="btn btn-login mb-12">
+                  <img src="../assets/images/facebook.svg">
+                  Facebook登入
+                </button>
+
+                <button class="btn btn-login mb-12">
+                  <img src="../assets/images/apple.svg">
+                  Apple登入
+                </button>
+
+                <button class="btn btn-login">
+                  <img src="../assets/images/google.svg">
+                  Google登入
+                </button>
+              </div>
+
+              <!-- 註冊按鈕 -->
+              <div class="registerdiv mb-md-32">
+                <button class="btn btn-login mb-12">
+                  <img src="../assets/images/facebook.svg">
+                  Facebook註冊
+                </button>
+
+                <button class="btn btn-login mb-12">
+                  <img src="../assets/images/apple.svg">
+                  Apple註冊
+                </button>
+
+                <button class="btn btn-login">
+                  <img src="../assets/images/google.svg">
+                  Google註冊
+                </button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
     <!-- 主要內容 -->
-    
+
     <%- include('./layout/footer'); -%>
-    <script type="module" src="../main.js"></script>
+      <script type="module" src="../main.js"></script>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script>
+        $(function () {
+          $('.registerdiv').hide();
+
+          $(document).on("mouseover", ".lrswitch", function () {
+            $('.logindiv').toggle();
+            $('.registerdiv').toggle();
+            $('.lrswitch').toggleClass("active");
+          });
+        });
+      </script>
+
+      </script>
 </body>
 
 </html>
