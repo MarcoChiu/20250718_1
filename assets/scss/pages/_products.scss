@@ -1,25 +1,26 @@
-// .category{
-//     padding-left: -12px;
-//     padding-right: -12px;
+// .category {
+//     margin-left: -12px;
+//     margin-left: -12px;
 // }
 
-.category .active{
-    color:$text-Primary-400;
+.category .active {
+    color: $text-Primary-400;
+
 }
 
-.page-item .btn{
-     /*二個值，【上下】採用同一值，【左右】採用同一值*/
+.page-item .btn {
+    /*二個值，【上下】採用同一值，【左右】採用同一值*/
     padding: 8px 15px;
     border-radius: 0;
     font-weight: 400;
 }
 
-.page-item .btn:hover:enabled{
-    color: $bg-Primary-500;   
+.page-item .btn:hover:enabled {
+    color: $bg-Primary-500;
 }
 
 
-.page-item .active:enabled{
-    background-color: $bg-Primary-300;    
+.page-item .active:enabled {
+    background-color: $bg-Primary-300;
     font-weight: 500;
 }

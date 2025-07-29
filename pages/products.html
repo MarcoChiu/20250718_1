@@ -9,18 +9,18 @@
 </head>
 
 <body>
-    <%- include('./layout/nav'); -%>
+  <%- include('./layout/nav'); -%>
 
     <!-- 主要內容 -->
     <main class="container py-32 py-md-16 mb-48">
 
-      <section>
+      <section class="px-12 px-md-12">
         <div class="mb-24 mb-md-12">
           <ol class="d-flex">
             <li class="breadcrumb-item">
               <a href="index.html" class="breadcrumb-link">首頁</a>
             </li>
-             <li class="breadcrumb-item">
+            <li class="breadcrumb-item">
               <a href="products.html" class="breadcrumb-link">女鞋</a>
             </li>
             <li class="breadcrumb-item">
@@ -33,16 +33,16 @@
         </div>
       </section>
 
-      <section>
-        <h1 class="h3 h4-md mb-24 mb-md-12">
+      <section class="px-12 px-md-12">
+        <h1 class="h3 h4-md mb-24 mb-md-1">
           女鞋
         </h1>
       </section>
 
       <section>
-        <div class="d-flex">
+        <div class="d-flex ">
           <!-- 左邊選單 -->
-          <div class="col-2-p0 d-md-none" >
+          <div class="col-2 d-md-none">
             <div class="column category">
               <div class="mb-16"><a href="products.html" class="py-8 active">所有產品</a></div>
               <div class="mb-16"><a href="products.html" class="py-8">慢跑鞋</a></div>
@@ -56,7 +56,7 @@
           <div class="col-10 col-md-4">
 
             <!-- 產品 -->
-            <div class="row">
+            <div class="row ">
               <div class="col-4 col-md-2">
                 <div class="mb-48 mb-md-24">
                   <a href="productdetail.html">
@@ -157,7 +157,7 @@
             <div>
               <ul class="d-flex justify-content-cneter align-items-center">
                 <li class="me-12 page-item">
-                  <button class="btn text-neutral-300 btndisabled" >
+                  <button class="btn text-neutral-300 btndisabled">
                     <!-- 因為 disabled 所以換成 -->
                     <i class="bi bi-chevron-left"></i>
                   </button>
@@ -189,10 +189,10 @@
       </section>
     </main>
     <!-- 主要內容 -->
-    
+
     <%- include('./layout/goregister'); -%>
-    <%- include('./layout/footer'); -%>
-    <script type="module" src="../main.js"></script>
+      <%- include('./layout/footer'); -%>
+        <script type="module" src="../main.js"></script>
 </body>
 
 </html>

@@ -17,24 +17,34 @@
     }
 }
 
+.btndisabled {
+    cursor: not-allowed;
+}
+
 .btn-dark {
     background-color: $text-neutral-900;
     color: $text-neutral-white;
 }
 
 .btn-dark:hover {
-    background-color: $text-neutral-700;     
+    background-color: $text-neutral-700;
 }
 
 .btn-heart {
     border: 1px solid $text-neutral-900;
-} 
- 
-.btn-heart:hover {
-    color:$text-Danger-300;
-    border: 1px solid  $text-Danger-300;
-} 
+}
 
-.btndisabled{
-    cursor: not-allowed;    
+.btn-heart:hover {
+    color: $text-Danger-300;
+    border: 1px solid $text-Danger-300;
+}
+
+
+
+.btn-primary-300 {
+    background-color: $bg-Primary-300
+}
+
+.btn-primary-300:hover {
+    color: $bg-Primary-500
 }
