@@ -2,7 +2,8 @@
     display: none;
 }
 
-@media (max-Width:767px) {
+// 必須搭配nav來填整寬度
+@media (max-Width:576px) {
     .mobilenav {
         display: flex;
         flex-wrap: nowrap;
@@ -43,7 +44,7 @@
     padding: 289px 0 288px 200px;
 }
 
-@media (max-Width:576px) {
+@media (max-Width:767px) {
     .indexheader {
         background-image: url(../../assets/images/banner-sm.png);
         padding: 155px 24px 235px 24px;
@@ -68,7 +69,7 @@
             letter-spacing: 0.05em;
         }
 
-        @media (max-Width:576px) {
+        @media (max-Width:767px) {
             .title {
                 font-size: 16px;
             }
