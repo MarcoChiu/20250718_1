@@ -31,7 +31,6 @@
     }
 }
 
-
 .indexheader {
     background-image: url(../../assets/images/banner.png);
     background-repeat: no-repeat;
@@ -116,6 +115,7 @@
         padding-top: 64px;
         padding-bottom: 64px;
 
+        // 多出來的圖片隱藏
         overflow: hidden;
 
         .star {
@@ -176,5 +176,47 @@
         h4 {
             color: $bg-Primary-300;
         }
+    }
+}
+
+.inspiration-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -4px;
+}
+
+.inspiration-col-4 {
+    width: calc(100% / 12 * 4);
+    padding: 4px;
+}
+
+.inspiration-col-6 {
+    width: calc(100% / 12 * 6);
+    padding: 4px;
+}
+
+.inspiration-col-12 {
+    width: 100%;
+    padding: 4px;
+}
+
+@media (max-width:767px) {
+    .inspiration-row {
+        flex-wrap: nowrap;
+        margin: -4px;
+        a {
+            img {
+                min-width: 300px;
+            }
+        }
+
+    }
+
+    .inspiration-col-4,
+    .inspiration-col-6,
+    .inspiration-col-12 {
+        // 不設定寬度
+        width: unset;
+        padding: 0 8px;
     }
 }
