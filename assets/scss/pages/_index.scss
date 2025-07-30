@@ -2,7 +2,7 @@
     display: none;
 }
 
-@media (max-Width:576px) {
+@media (max-Width:767px) {
     .mobilenav {
         display: flex;
         flex-wrap: nowrap;
@@ -77,6 +77,58 @@
     }
 }
 
+.indexbanner {
+    background-image: url(../../assets/images/banner-co-branded.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*四個值，個別指定 上右下左 */
+    /*三個值，左右採用同一個值，上下則分開指定*/
+    /*二個值，【上下】採用同一值，【左右】採用同一值*/
+    /*一個值，【上下左右】都使用相同的值*/
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    position: relative;
+    overflow: hidden;
+
+    // 助教教學
+    .star {
+        position: absolute;
+        width: 48px;
+        top: 68px;
+        left: calc(50% - 397px);
+    }
+
+    .sparkle {
+        position: absolute;
+        width: 76px;
+        bottom: 132px;
+        right: calc(50% - 357px)
+    }
+}
+
+
+@media (max-Width:767px) {
+    .indexbanner {
+        background-image: url(../../assets/images/banner-co-branded-sm.png);
+        padding-top: 64px;
+        padding-bottom: 64px;
+
+        overflow: hidden;
+
+        .star {
+            top: 32px;
+            left: -20px;
+        }
+
+        .sparkle {
+            bottom: 104px;
+            right: -28px;
+        }
+    }
+}
+
 .no1 {
     // 上層必須.position-relative
     display: block;
@@ -98,12 +150,12 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-             white-space: nowrap;
+            white-space: nowrap;
             text-align: center;
             z-index: 2;
 
-            @media (max-width:992px){
-                white-space:normal;
+            @media (max-width:992px) {
+                white-space: normal;
             }
         }
 
@@ -118,6 +170,7 @@
     }
 
     a:hover {
+
         h3,
         h4 {
             color: $bg-Primary-300;

@@ -11,8 +11,16 @@
     color: $text-neutral-white;
 }
 
+.text-Primary-300 {
+    color: $bg-Primary-300;
+}
+
 .text-neutral-300 {
     color: $text-neutral-300;
+}
+
+.text-neutral-500 {
+    color: $text-neutral-500;
 }
 
 .text-neutral-600 {
@@ -38,6 +46,8 @@
 .bg-Primary-200 {
     background-color: $bg-Primary-200;
 }
+
+
 
 .bg-neutral-100 {
     background-color: $bg-neutral-100;
@@ -89,6 +99,8 @@
     font-weight: 700;
 }
 
+
+
 @media (max-width:767px) {
     .h3-md {
         font-size: 28px;
@@ -139,13 +151,20 @@
     letter-spacing: 0.05em;
 }
 
+.lg {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
 
-@media (max-Width:576px) {
-    .display1-sm {
+
+@media (max-Width:767px) {
+    .display1-md {
         font-size: 48px;
     }
 
-    .display2-sm {
+    .display2-md {
         font-size: 32px;
     }
 }
@@ -172,6 +191,8 @@
 }
 
 /* 上下助教是py */
+
+
 
 .py-64 {
     padding-top: 64px;
@@ -395,6 +416,9 @@
         margin-bottom: 32px;
     }
 
+    .mb-md-40 {
+        margin-bottom: 40px;
+    }
 
 
 }
@@ -538,6 +562,12 @@
     flex-direction: column;
 }
 
+@media (max-width:767px) {
+    .column-md {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 .col-1 {
     width: calc(100% / 12);
