@@ -409,7 +409,11 @@
     }
 
     .mb-sm-8 {
-        margin-bottom: 8pxs;
+        margin-bottom: 8px;
+    }
+
+    .mb-sm-12 {
+        margin-bottom: 12px;
     }
 
     .mb-sm-4 {
@@ -421,7 +425,7 @@
     }
 
     .mb-sm-24 {
-        margin-bottom: 24spx;
+        margin-bottom: 24px;
     }
 
 
@@ -728,5 +732,5 @@
 }
 
 .position-relative {
-    position: relative;    
+    position: relative;
 }
