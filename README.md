@@ -1,5 +1,6 @@
 # 20250718_1
 2025 切版直播夏季班 第四堂 - 多頁式 RWD 品牌形象官網
+2025 切版直播夏季班 第七堂 - 視差滾動應用(20250807) productdetail7.html
 
 設計稿
 https://www.figma.com/design/CYjKvZQo3db8xYCp6DCkKj/%E5%85%AD%E8%A7%92%EF%BD%9C%E9%9E%8B%E5%AD%90%E9%9B%BB%E5%95%86-W3%E3%80%81W4-%EF%BC%88student-ver.%EF%BC%89?node-id=12008-13571&t=zmmNB1HA9XFnyqiT-0
