@@ -1,9 +1,9 @@
-# 20250718_1
-2025 切版直播夏季班 第四堂 - 多頁式 RWD 品牌形象官網
-2025 切版直播夏季班 第七堂 - 視差滾動應用(20250807) productdetail7.html
+# 網頁切版直播班｜2025 夏季 第四堂 - 六角｜鞋子電商-W3、W4
 
-設計稿
+## 設計稿 
+```
 https://www.figma.com/design/CYjKvZQo3db8xYCp6DCkKj/%E5%85%AD%E8%A7%92%EF%BD%9C%E9%9E%8B%E5%AD%90%E9%9B%BB%E5%95%86-W3%E3%80%81W4-%EF%BC%88student-ver.%EF%BC%89?node-id=12008-13571&t=zmmNB1HA9XFnyqiT-0
+```
 
 講義連結
 https://chalk-freedom-ec6.notion.site/2296ab47eb48805c9b5ad190c7437e36?pvs=74
