@@ -8,7 +8,7 @@ https://www.figma.com/design/CYjKvZQo3db8xYCp6DCkKj/%E5%85%AD%E8%A7%92%EF%BD%9C%
 ## 講義連結
 https://chalk-freedom-ec6.notion.site/2296ab47eb48805c9b5ad190c7437e36?pvs=74
 
-## [首頁](https://marcochiu.github.io/20250725_1/)
+## [首頁](https://marcochiu.github.io/20250718_1/)
 
 ## 安裝node.js
 - npm -v (看有沒有安裝node.js 出現版本)
